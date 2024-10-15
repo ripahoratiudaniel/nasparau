@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
+ <!-- Change language to Romanian -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet"> <!-- Link to Google Fonts -->
     <style>
         html, body {
             height: 100%;
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif; /* Use Roboto font */
             margin: 0;
             display: flex;
             background-color: black; /* Set background to black */
             color: yellow; /* Set text color to yellow */
         }
+
         .sidebar {
             width: 200px;
             background-color: #333; /* Darker background for the sidebar */
@@ -21,19 +24,19 @@
             height: 100%;
         }
 
-        .sidebar h2,
-        .sidebar h3 {
-            margin-top: 0;
-        }
+            .sidebar h2,
+            .sidebar h3 {
+                margin-top: 0;
+            }
 
-        .sidebar ul {
-            list-style-type: none;
-            padding: 0;
-        }
+            .sidebar ul {
+                list-style-type: none;
+                padding: 0;
+            }
 
-        .sidebar ul li {
-            margin: 10px 0;
-        }
+                .sidebar ul li {
+                    margin: 10px 0;
+                }
 
         a {
             text-decoration: none; /* Remove underline */
@@ -52,29 +55,30 @@
         .content {
             padding: 20px;
             flex-grow: 1;
+            font-family: 'Raleway', sans-serif; /* Use Raleway for content */
         }
     </style>
 </head>
 <body>
 
     <div class="sidebar">
-        <h2><a href="\index.html">Home</a></h2>
-        <h3>New</h3>
+        <h2><a href="\index.html">Acasă</a></h2> <!-- Change Home to Romanian -->
+        <h3>Nou</h3>
         <ul>
-            <li><a href="new1.html">New Item 1</a></li>
-            <li><a href="new2.html">New Item 2</a></li>
+            <li><a href="new1.html">Articol Nou 1</a></li> <!-- Changed to Romanian -->
+            <li><a href="new2.html">Articol Nou 2</a></li> <!-- Changed to Romanian -->
         </ul>
-        
-        <h3>Archive</h3>
+
+        <h3>Arhivă</h3>
         <ul>
-            <li><a href="archive1.html">Archive Item 1</a></li>
-            <li><a href="archive2.html">Archive Item 2</a></li>
+            <li><a href="archive1.html">Articol Arhivă 1</a></li> <!-- Changed to Romanian -->
+            <li><a href="archive2.html">Articol Arhivă 2</a></li> <!-- Changed to Romanian -->
         </ul>
     </div>
 
     <div class="content">
         <h1>Nasparau</h1>
-        <p>Select an option from the menu to get started.</p>
+        <p>Selectați o opțiune din meniu pentru a începe.</p> <!-- Changed to Romanian -->
     </div>
 
 </body>
