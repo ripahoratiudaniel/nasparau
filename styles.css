@@ -49,3 +49,18 @@
             max-width: 90%;
             margin: 0 auto;
         }
+
+        .redclass {
+            color: red;
+        }
+
+        .bordered {
+            border: 1px solid red;
+            padding: 10px;
+        }
+        .preview {
+            font-size: 0.9em;
+            color: greenyellow; /* Preview text color */
+            padding-left: 20px;
+        }
+     
